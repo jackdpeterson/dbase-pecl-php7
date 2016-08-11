@@ -34,6 +34,7 @@
    <file md5sum="58718e003c1e97d7a625320f67e440e5" name="dbf_head.h" role="src" />
    <file md5sum="c465e1179b757266305a41e798df1070" name="dbf_misc.c" role="src" />
    <file md5sum="2ac0dad01bd9f09b2daae18fc36e54cf" name="dbf_misc.h" role="src" />
+   <file md5sum="bb5c3186da5059cb861777c0bda864fa" name="dbf_ndx.h" role="src" />
    <file md5sum="bb5c3186da5059cb861777c0bda864fa" name="dbf_ndx.c" role="src" />
    <file md5sum="1f2a752bc44448a99d92d0b15c0654b9" name="dbf_rec.c" role="src" />
    <file md5sum="3ce4ff4667262409c7b16a8ab3fb2faa" name="dbf_rec.h" role="src" />
