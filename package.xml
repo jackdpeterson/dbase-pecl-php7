@@ -1,74 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.10.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
+<package version="1.0" packagerversion="1.10.1">
  <name>dbase</name>
- <channel>pecl.php.net</channel>
  <summary>DBASE for php7</summary>
- <description>php 7.0 compatible dbase extension</description>
- <lead>
-  <name>mote0230</name>
-  <user>more0230</user>
-  <email>unknown@example.com</email>
-  <active>yes</active>
- </lead>
- <date>2016-08-11</date>
- <time>20:23:56</time>
- <version>
-  <release>1.18</release>
-  <api>1.18</api>
- </version>
- <stability>
-  <release>beta</release>
-  <api>beta</api>
- </stability>
- <license uri="http://www.php.net/license/">PHP License</license>
- <notes>
-- PHP 7 compatibility
- </notes>
- <contents>
-  <dir name="/">
-   <file md5sum="42acf6dc624476eb6d12a0a029961297" name="README.md" role="doc" />
-   <file md5sum="33b13d8a5817f1aea05f4327ce5ccd14" name="config.m4" role="src" />
-   <file md5sum="a193a7286d3571754f5c526705d3e0a0" name="dbase.c" role="src" />
-   <file md5sum="ce8b9ba3f1bbaa2898c51377462f6044" name="dbf.h" role="src" />
-   <file md5sum="7e999f4d2b9023f8a59ba8cb0b88be69" name="dbf_head.c" role="src" />
-   <file md5sum="58718e003c1e97d7a625320f67e440e5" name="dbf_head.h" role="src" />
-   <file md5sum="c465e1179b757266305a41e798df1070" name="dbf_misc.c" role="src" />
-   <file md5sum="2ac0dad01bd9f09b2daae18fc36e54cf" name="dbf_misc.h" role="src" />
-   <file md5sum="bb5c3186da5059cb861777c0bda864fa" name="dbf_ndx.c" role="src" />
-   <file md5sum="1f2a752bc44448a99d92d0b15c0654b9" name="dbf_rec.c" role="src" />
-   <file md5sum="3ce4ff4667262409c7b16a8ab3fb2faa" name="dbf_rec.h" role="src" />
-   <file md5sum="c198359d041bd7f81ad58b8e569ee3bf" name="php_dbase.h" role="src" />
-  </dir>
- </contents>
- <dependencies>
-  <required>
-   <php>
-    <min>7.0.0</min>
-   </php>
-   <pearinstaller>
-    <min>1.4.0</min>
-   </pearinstaller>
-   <os>
-    <name>linux</name>
-   </os>
-  </required>
- </dependencies>
- <providesextension>dbase</providesextension>
- <extsrcrelease />
- <changelog>
-  <release>
-   <version>
-    <release>1.18</release>
-    <api>1.18</api>
-   </version>
-   <stability>
-    <release>beta</release>
-    <api>beta</api>
-   </stability>
-   <date>2018-08-11</date>
-   <notes>
-- PHP 7 compatibility
-   </notes>
-  </release>
- </changelog>
+ <description>php 7.0 compatible dbase extension
+ </description>
+ <maintainers>
+  <maintainer>
+   <user>more0230</user>
+   <name>mote0230</name>
+   <email>unknown@example.com</email>
+   <role>lead</role>
+  </maintainer>
+  </maintainers>
+ <release>
+  <version>1.18.0</version>
+  <date>2016-08-11</date>
+  <license>PHP License</license>
+  <state>beta</state>
+  <notes>- PHP 7 compatibility
+  </notes>
+  <deps>
+   <dep type="php" rel="ge" version="7.0.0"/>
+  </deps>
+  <filelist>
+   <file role="src" md5sum="33b13d8a5817f1aea05f4327ce5ccd14" name="config.m4"/>
+   <file role="src" md5sum="a193a7286d3571754f5c526705d3e0a0" name="dbase.c"/>
+   <file role="src" md5sum="ce8b9ba3f1bbaa2898c51377462f6044" name="dbf.h"/>
+   <file role="src" md5sum="7e999f4d2b9023f8a59ba8cb0b88be69" name="dbf_head.c"/>
+   <file role="src" md5sum="58718e003c1e97d7a625320f67e440e5" name="dbf_head.h"/>
+   <file role="src" md5sum="c465e1179b757266305a41e798df1070" name="dbf_misc.c"/>
+   <file role="src" md5sum="2ac0dad01bd9f09b2daae18fc36e54cf" name="dbf_misc.h"/>
+   <file role="src" md5sum="bb5c3186da5059cb861777c0bda864fa" name="dbf_ndx.c"/>
+   <file role="src" md5sum="1f2a752bc44448a99d92d0b15c0654b9" name="dbf_rec.c"/>
+   <file role="src" md5sum="3ce4ff4667262409c7b16a8ab3fb2faa" name="dbf_rec.h"/>
+   <file role="src" md5sum="c198359d041bd7f81ad58b8e569ee3bf" name="php_dbase.h"/>
+   <file role="doc" md5sum="42acf6dc624476eb6d12a0a029961297" name="README.md"/>
+  </filelist>
+ </release>
 </package>
