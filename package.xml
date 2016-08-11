@@ -32,6 +32,7 @@
    <file role="src" md5sum="c465e1179b757266305a41e798df1070" name="dbf_misc.c"/>
    <file role="src" md5sum="2ac0dad01bd9f09b2daae18fc36e54cf" name="dbf_misc.h"/>
    <file role="src" md5sum="bb5c3186da5059cb861777c0bda864fa" name="dbf_ndx.c"/>
+   <file role="src" md5sum="bb5c3186da5059cb861777c0bda864fa" name="dbf_ndx.h"/>
    <file role="src" md5sum="1f2a752bc44448a99d92d0b15c0654b9" name="dbf_rec.c"/>
    <file role="src" md5sum="3ce4ff4667262409c7b16a8ab3fb2faa" name="dbf_rec.h"/>
    <file role="src" md5sum="c198359d041bd7f81ad58b8e569ee3bf" name="php_dbase.h"/>
